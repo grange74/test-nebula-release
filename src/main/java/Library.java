@@ -8,4 +8,7 @@ public class Library {
     public void anotherMethod() {
         // do nothing
     }
+    public void yetAnotherMethod() {
+        // do nothing
+    }
 }
