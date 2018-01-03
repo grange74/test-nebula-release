@@ -14,4 +14,8 @@ public class Library {
     public void yetAnotherAnotherMethod() {
         // do nothing
     }
+	
+	public void yetAnotherAnotherAnotherMethod() {
+        // do nothing
+    }
 }
