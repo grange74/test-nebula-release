@@ -5,12 +5,12 @@ buildscript {
   dependencies {
     classpath "com.netflix.nebula:nebula-release-plugin:6.1.1"
     classpath 'com.netflix.nebula:gradle-info-plugin:3.+' 
-    classpath 'com.netflix.nebula:nebula-publishing-plugin:5.1.0'
+    //classpath 'com.netflix.nebula:nebula-publishing-plugin:5.1.0'
   }
 }
 apply plugin: "nebula.release"
 apply plugin: 'nebula.info'
-apply plugin: 'nebula.maven-publish'
+//apply plugin: 'nebula.maven-publish'
 
 
 // In this section you declare where to find the dependencies of your project
