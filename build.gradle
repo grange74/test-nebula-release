@@ -1,16 +1,14 @@
 apply plugin: 'java'
 
 buildscript {
-  repositories {
-    maven {
-      url "https://plugins.gradle.org/m2/"
-    }
-  }
+  repositories { jcenter() }
   dependencies {
     classpath "com.netflix.nebula:nebula-release-plugin:6.1.1"
+    classpath 'com.netflix.nebula:gradle-info-plugin:3.+' 
   }
 }
 apply plugin: "nebula.release"
+apply plugin: 'nebula.info'
 
 
 // In this section you declare where to find the dependencies of your project
